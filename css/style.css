@@ -1,0 +1,60 @@
+.debug {
+  background-color: lightgrey;
+  height: 800px;
+}
+/* GENERAL SETTINGS */
+.container {
+  padding: 10px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-top: 10px;
+}
+
+/* /GENERAL SETTINGS */
+
+/* header settings */
+nav {
+  background-color: lightgreen;
+}
+
+.headersection {
+  background-color: green;
+}
+/* /header settings */
+
+/* portfolio settings */
+.portfolio {
+  background-color: lightblue;
+}
+
+.image {
+  background-color: blue;
+  padding: 20px 0;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+/* /portfolio settings */
+
+/* about settings */
+.about {
+  background-color: purple;
+}
+/* /about settings */
+
+/* contact me */
+.contactme {
+  background-color: coral;
+}
+/* /contact me */
+
+/* footer */
+footer > .upper {
+  background-color: lightblue
+}
+footer > .lower {
+  background-color: blue;
+}
+/* /footer */
