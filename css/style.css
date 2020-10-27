@@ -1,37 +1,76 @@
-.debug {
-  background-color: lightgrey;
-  height: 800px;
-}
 /* GENERAL SETTINGS */
-.container {
+.pad_space {
   padding: 10px;
-  text-align: center;
 }
 
-h1, h2 {
+p, h1, h2, h3, h4, .start_bs, .icon_div, .nav_menu > li > a {
+  color: #F8F9FA;
+}
+
+#portfolio h3,
+#portfolio p,
+#contactme h3,
+#contactme p,
+#portfolio .icon_div,
+#contactme .icon_div {
+  color: #2C3E50;
+}
+
+h1, h2, h3 {
   margin-top: 10px;
+}
+
+.icon_div {
+  margin-bottom: 10px;
 }
 
 /* /GENERAL SETTINGS */
 
 /* header settings */
 nav {
-  background-color: lightgreen;
+  background-color: #2C3E50;
+  height: 80px;
+  line-height: 80px;
 }
 
-.headersection {
-  background-color: green;
+#headersection {
+  background-color: #1ABC9C;
+}
+
+.start_bs {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn_mod {
+  background-color: transparent;
+  border-color: #F8F9FA;
+}
+.btn_mod > .fa-bars {
+  font-size: 1.2em;
+}
+
+.nav_menu > li {
+  display: inline-block;
+  padding-left: 15px;
+}
+.nav_menu > li > a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#headersection img {
+  height: 200px;
 }
 /* /header settings */
 
 /* portfolio settings */
-.portfolio {
-  background-color: lightblue;
+#portfolio {
+  background-color: #FFFFFF;
 }
 
-.image {
-  background-color: blue;
-  padding: 20px 0;
+.port_image > img{
+  width: 100%;
   margin: 10px 0;
   text-align: center;
   border-radius: 5px;
@@ -39,22 +78,30 @@ nav {
 /* /portfolio settings */
 
 /* about settings */
-.about {
-  background-color: purple;
+#about {
+  background-color: #1ABC9C;
+}
+
+.btn_down {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  margin: 10px 0;
 }
 /* /about settings */
 
 /* contact me */
-.contactme {
-  background-color: coral;
+#contactme {
+  background-color: #FFFFFF;
 }
 /* /contact me */
 
 /* footer */
-footer > .upper {
-  background-color: lightblue
+footer > #upper {
+  background-color: #2C3E50;
+
 }
-footer > .lower {
-  background-color: blue;
+footer > #lower {
+  background-color: #1A252F;
 }
 /* /footer */
