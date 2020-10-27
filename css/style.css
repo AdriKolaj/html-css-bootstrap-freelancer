@@ -82,8 +82,8 @@ nav {
   background-color: #1ABC9C;
 }
 
-.btn_down {
-  background-color: transparent;
+.btn_green {
+  background-color: #1ABC9C;
   color: white;
   border-color: white;
   margin: 10px 0;
@@ -94,13 +94,38 @@ nav {
 #contactme {
   background-color: #FFFFFF;
 }
+
+form input, form textarea{
+  color: black;
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
 /* /contact me */
 
 /* footer */
 footer > #upper {
   background-color: #2C3E50;
-
 }
+
+footer div {
+  padding: 15px 0;
+}
+
+.btn_social{
+  background-color: transparent;
+  border-radius: 100px;
+  border-color: white;
+  margin-right: 5px;
+}
+
+#link_bs {
+  text-decoration: none;
+  color: #1ABC9C;
+}
+
 footer > #lower {
   background-color: #1A252F;
 }
