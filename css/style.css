@@ -135,11 +135,22 @@ nav {
   background-color: #FFFFFF;
 }
 
+.port_image {
+  position: relative;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #1ABC9C;
+}
 .port_image > img {
   width: 100%;
-  margin: 10px 0;
   text-align: center;
   border-radius: 5px;
+  z-index: 2;
+}
+.port_image > img:hover {
+  cursor: pointer;
+  opacity: 0.2;
+  z-index:1;
 }
 /* /portfolio settings */
 
