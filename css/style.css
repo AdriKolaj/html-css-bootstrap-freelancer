@@ -1,6 +1,6 @@
 /* GENERAL SETTINGS */
 .pad_space {
-  padding: 10px;
+  padding: 50px 10px;
 }
 
 p, h1, h2, h3, h4, .start_bs, .icon_div, .nav_menu > li > a {
@@ -20,6 +20,21 @@ h1, h2, h3 {
   margin-top: 10px;
 }
 
+.h1_mod {
+  font-size: 3em;
+  font-weight: bold;
+}
+.h3_mod {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.h4_mod{
+  font-size: 1.3em;
+}
+.pa_mod {
+  font-size: 1.15em;
+}
+
 .icon_div {
   margin-bottom: 10px;
 }
@@ -33,13 +48,10 @@ nav {
   line-height: 80px;
 }
 
-#headersection {
-  background-color: #1ABC9C;
-}
-
 .start_bs {
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.3em;
 }
 
 .btn_mod {
@@ -52,15 +64,25 @@ nav {
 
 .nav_menu > li {
   display: inline-block;
-  padding-left: 15px;
+  padding-left: 20px;
 }
 .nav_menu > li > a {
   text-decoration: none;
   font-weight: bold;
+  font-size: 0.85em;
+}
+
+#headersection {
+  background-color: #1ABC9C;
 }
 
 #headersection img {
   height: 200px;
+  margin: 15px 0;
+}
+
+.ph_mod {
+  font-size: 1.3em;
 }
 /* /header settings */
 
@@ -87,7 +109,9 @@ nav {
   color: white;
   border-color: white;
   margin: 10px 0;
+  font-size: 1.1em;
 }
+
 /* /about settings */
 
 /* contact me */
@@ -110,8 +134,8 @@ footer > #upper {
   background-color: #2C3E50;
 }
 
-footer div {
-  padding: 15px 0;
+.pad_bot {
+  padding-bottom: 20px;
 }
 
 .btn_social{
@@ -128,5 +152,6 @@ footer div {
 
 footer > #lower {
   background-color: #1A252F;
+  padding: 10px 0;
 }
 /* /footer */
