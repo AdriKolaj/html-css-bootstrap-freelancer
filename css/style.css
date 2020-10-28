@@ -68,6 +68,7 @@ nav {
   border-color: #F8F9FA;
 }
 .btn_mod > .fa-bars {
+  color: lightgrey;
   font-size: 1.2em;
 }
 .btn_mod:hover{
@@ -139,19 +140,34 @@ nav {
   position: relative;
   margin: 10px 0;
   border-radius: 5px;
-  background-color: #1ABC9C;
+  overflow: hidden;
 }
 .port_image > img {
   width: 100%;
-  text-align: center;
-  border-radius: 5px;
-  z-index: 2;
 }
-.port_image > img:hover {
+
+.port_layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 188, 156, 0.8);
+  opacity: 0;
   cursor: pointer;
-  opacity: 0.2;
-  z-index:1;
 }
+.port_layover i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  font-size: 70px;
+  color: white;
+}
+.port_image:hover .port_layover{
+  opacity: 1;
+}
+
 /* /portfolio settings */
 
 /* about settings */
